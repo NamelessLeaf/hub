@@ -5,14 +5,14 @@ version: 1.0
 main: NamelessLeaf\hub\pvp
 
 command:
-	cmdname:
-		description: Go Back To NamelessLand's Hub
-	cmd2name:
-		description: Go To NamelessLand's Hub
+hub:
+description: Go Back To NamelessLand's Hub
+lobby:
+description: Go To NamelessLand's Hub
 
 # Permissions 
 permissions:
-	cmdname.command:
-		default: true
-	cmd2name.command:
-		default: true
+namelessback.use:
+default: true
+namelesslobby.use:
+default: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace NamelessLeaf\hub;
+namespace NamelessLeaf\hub\Main;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;

@@ -29,9 +29,9 @@ class Main extends PluginBase implements Listener {
     public function onCommand(CommandSender $sender, Command $cmd, String $lable, Array $args) : bool {
     
     switch($cmd->getName()){
-      case "playpvp":
+      case "hub":
         if($sender instanceof Player){
-          $this->form($sender);
+          $player->transfer("NamelessLands.nc.gg", 40163);
         }else{
           $sender->sendMessage("Console Bru why u trying to tp");
         }

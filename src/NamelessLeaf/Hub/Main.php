@@ -31,7 +31,7 @@ class Main extends PluginBase implements Listener {
     switch($cmd->getName()){
       case "hub":
         if($sender instanceof Player){
-          $player->transfer("NamelessLands.nc.gg", 40163);
+          $sender->transfer("NamelessLands.nc.gg", 40163);
         }else{
           $sender->sendMessage("Console Bru why u trying to tp");
         }

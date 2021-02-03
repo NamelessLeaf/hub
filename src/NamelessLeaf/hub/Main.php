@@ -1,11 +1,10 @@
 <?php
 
-namespace NamelessLeaf\hub; 
+namespace NamelessLeaf\hub;
 
-use pocketmine\Plugin;
+use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
-use pocketmine\Server;
-use pocketmine\Command;
+use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerPreLoginEvent;
@@ -17,9 +16,13 @@ use jojoe77777\FormAPI;
 use pocketmine\command\CommandExecutor;
 use pocketmine\command\ConsoleCommandSender;
 
+
 class Main extends PluginBase implements Listener {
   
-  public fucntion onEnable(){
+  public function onEnable(){
     $this->getLogger()->info("Enabled");
   }
-}
+  
+  public function onDisable(){
+    $this->getLogger()->info("Disabled");
+  }

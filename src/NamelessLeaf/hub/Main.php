@@ -1,6 +1,6 @@
 <?php
 
-namespace NamelessLeaf\Hub\Main;
+namespace NamelessLeaf\Hub;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
@@ -26,3 +26,4 @@ class Main extends PluginBase implements Listener {
   public function onDisable(){
     $this->getLogger()->info("Disabled");
   }
+  

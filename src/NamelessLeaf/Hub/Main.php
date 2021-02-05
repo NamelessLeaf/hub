@@ -29,9 +29,21 @@ class Main extends PluginBase implements Listener {
     public function onCommand(CommandSender $sender, Command $cmd, String $lable, Array $args) : bool {
     
     switch($cmd->getName()){
-      case "Hub":
+      case "hub":
         if($sender instanceof Player){
           $sender->transfer("NamelessLands.mc.gg", 40163);
+        }else{
+          $sender->sendMessage("Console Bru why u trying to tp");
+        }
+    }
+    return true;
+  }
+      public function onCommand(CommandSender $sender, Command $cmd, String $lable, Array $args) : bool {
+    
+    switch($cmd->getName()){
+      case "hub2":
+        if($sender instanceof Player){
+          $sender->transfer("us1.falixnodes.net", 27198);
         }else{
           $sender->sendMessage("Console Bru why u trying to tp");
         }

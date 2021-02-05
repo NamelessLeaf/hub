@@ -38,18 +38,4 @@ class Main extends PluginBase implements Listener {
     }
     return true;
   }
-  
-  
-  public function onCommand(CommandSender $sender, Command $cmd, String $lable, Array $args) : bool {
-  
-    switch($cmd->getName()){
-      case "hub2":
-        if($sender instanceof Player){
-          $sender->transfer("us1.falixnodes.net" 27198);
-        }else{
-          $sender->sendMessage("Console U Retard");
-        }
-    }
-    return true;
-  }
 }

@@ -1,18 +1,10 @@
-name: hub
-api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
-author: NamelessLeaf
-version: 1.0
+name: Hub
 main: NamelessLeaf\Hub\Main
-
-command:
-Hub:
-description: Go Back To NamelessLand's Hub
-lobby:
-description: Go To NamelessLand's Hub
-
-# Permissions 
-permissions:
-namelessback.use:
-default: true
-namelesslobby.use:
-default: true
+author: NamelessLeaf
+version: "1.0"
+description: "Plugin For NamelessNetwork"
+api: 3.17.2
+commands:
+ Hub:
+  description: "Go To Hub"
+  permission: use.hubnameless

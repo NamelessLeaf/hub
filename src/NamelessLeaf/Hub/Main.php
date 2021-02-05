@@ -29,7 +29,7 @@ class Main extends PluginBase implements Listener {
     public function onCommand(CommandSender $sender, Command $cmd, String $lable, Array $args) : bool {
     
     switch($cmd->getName()){
-      case "hub":
+      case "Hub":
         if($sender instanceof Player){
           $sender->transfer("NamelessLands.nc.gg", 40163);
         }else{

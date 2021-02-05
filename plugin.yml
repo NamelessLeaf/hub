@@ -5,7 +5,7 @@ version: 1.0
 main: NamelessLeaf\Hub\Main
 
 command:
-hub:
+Hub:
 description: Go Back To NamelessLand's Hub
 lobby:
 description: Go To NamelessLand's Hub

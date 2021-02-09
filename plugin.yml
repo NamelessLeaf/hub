@@ -3,7 +3,7 @@ main: NamelessLeaf\Hub\Main
 author: NamelessLeaf
 version: "1.0"
 description: "Plugin For NamelessNetwork"
-api: 3.17.2
+api: 3.17.4
 commands:
  hub:
   description: "Go To Hub Main Server"
